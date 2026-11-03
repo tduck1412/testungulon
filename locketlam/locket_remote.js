@@ -5,12 +5,15 @@
 // Tác giả: @tduc (https://www.facebook.com/tduck.2007/)
 // ============================================================
 
-var ua = $request.headers["User-Agent"] || $request.headers["user-agent"] || "";
-var obj = JSON.parse($response.body);
+var obj = {};
+try {
+    obj = JSON.parse($response.body);
+} catch (e) {
+    obj = {};
+}
 
-if (ua.includes("Locket")) {
-    obj.Attention = "Chúc mừng bạn! Vui lòng không bán hoặc chia sẻ cho người khác!";
-    obj.entries = obj.entries || {};
+obj.Attention = "Chúc mừng bạn! Vui lòng không bán hoặc chia sẻ cho người khác!";
+obj.entries = obj.entries || {};
 
     // ============================================================
     // 1. CẤU HÌNH GOLD, FEATURE GATES & PAYWALL
@@ -2301,6 +2304,5 @@ if (ua.includes("Locket")) {
             }
         ])
     });
-}
 
 $done({ body: JSON.stringify(obj) });
