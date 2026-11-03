@@ -1,8 +1,21 @@
-/***********************************************
-> deleteHeader by duyvinh09
-***********************************************/	
+// ============================================================
+// Delete Caching Headers for RevenueCat
+// Dùng cho: Shadowrocket / Loon / Surge / Quantumult X
+// Tác giả: @tduc (https://www.facebook.com/tduck.2007/)
+// ============================================================
 
-const version = 'V1.0.2';
+var modifiedHeaders = $request && $request.headers ? Object.assign({}, $request.headers) : {};
 
+function removeHeader(headers, name) {
+    if (!headers) return;
+    delete headers[name];
+    delete headers[name.toLowerCase()];
+    delete headers[name.toUpperCase()];
+}
 
-function setHeaderValue(e,a,d){var r=a.toLowerCase();r in e?e[r]=d:e[a]=d}var modifiedHeaders=$request.headers;setHeaderValue(modifiedHeaders,"X-RevenueCat-ETag",""),$done({headers:modifiedHeaders});
+removeHeader(modifiedHeaders, "X-RevenueCat-ETag");
+removeHeader(modifiedHeaders, "If-None-Match");
+removeHeader(modifiedHeaders, "x-revenuecat-etag");
+removeHeader(modifiedHeaders, "if-none-match");
+
+$done({ headers: modifiedHeaders });

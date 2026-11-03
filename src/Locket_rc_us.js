@@ -35,4 +35,3 @@ if ($request.method === "POST") {
 } else {
     $done({});
 }
-

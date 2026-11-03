@@ -20,7 +20,7 @@ function makeSub(productId, priceAmount, priceCurrency) {
     return {
         auto_resume_date: null,
         display_name: productId,
-        is_sandbox: true,
+        is_sandbox: false,
         ownership_type: "PURCHASED",
         billing_issues_detected_at: null,
         management_url: "https://apps.apple.com/account/subscriptions",
