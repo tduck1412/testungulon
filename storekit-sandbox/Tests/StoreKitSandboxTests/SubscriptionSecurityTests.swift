@@ -112,3 +112,4 @@ final class SubscriptionSecurityTests: XCTestCase {
         XCTAssertFalse(manager.hasGoldAccess, "Giao dịch đã hoàn tiền (revocationDate != nil) phải bị vô hiệu hóa ngay lập tức")
     }
 }
+

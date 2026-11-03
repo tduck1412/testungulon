@@ -52,3 +52,4 @@ storekit-sandbox/
      * ✅ `test03_purchaseEffectPack_shouldGrantEffectAccess`: Kiểm tra mua lẻ gói hiệu ứng ngày lễ.
      * ✅ `test04_subscriptionExpiration_shouldRevokeGoldAccess`: Kiểm tra tự động thu hồi quyền khi hết hạn.
      * ✅ `test05_refundTransaction_shouldInvalidateEntitlementImmediately`: Kiểm tra thu hồi ngay khi bị hoàn tiền.
+
