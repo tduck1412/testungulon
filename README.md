@@ -1,20 +1,20 @@
 <p align="center">
-  <img src="./assets/banner.png" alt="Nâng Locket Gold bằng Shadowrocket - LAMDev" width="100%">
+  <img src="./assets/banner.png" alt="Nâng Locket Gold bằng Shadowrocket - tduc" width="100%">
 </p>
 
-# 💛 Locket Gold VIP - LAMDev
+# 💛 Locket Gold VIP - tduc
 
 > **Bộ công cụ chuyên biệt mở khóa Locket Gold VIP vĩnh viễn & Chống thu hồi**  
-> 🌐 Website: [dalymmo.com](https://dalymmo.com) | 📢 Kênh hỗ trợ: [Telegram @dalymmocom](https://t.me/dalymmocom)  
-> 📦 Repository: [leanhminh2104/locketlam](https://github.com/leanhminh2104/locketlam/tree/shadowrocket) | 🌿 Nhánh: `shadowrocket`
+> 👤 Tác giả: **tduc** ([Facebook: tduck.2007](https://www.facebook.com/tduck.2007/))  
+> 📦 Repository: [tduck1412/testungulon](https://github.com/tduck1412/testungulon) | 🌿 Nhánh: `main`
 
 ---
 
 ## 🌟 Giới thiệu
 
-**LocketLAM** là bộ giải pháp mở khóa Locket Gold chuyên nghiệp do **LAMDev** phát triển, tinh gọn **100% dành riêng cho ứng dụng Locket**, loại bỏ toàn bộ các thành phần dư thừa của các ứng dụng khác giúp hệ thống hoạt động nhẹ nhất, mượt nhất và ổn định nhất.
+**Locket Gold VIP** là bộ giải pháp mở khóa Locket Gold chuyên nghiệp do **tduc** ([Facebook](https://www.facebook.com/tduck.2007/)) phát triển và tối ưu, tinh gọn **100% dành riêng cho ứng dụng Locket**, loại bỏ toàn bộ các thành phần dư thừa của các ứng dụng khác giúp hệ thống hoạt động nhẹ nhất, mượt nhất và ổn định nhất.
 
-Mọi tính năng VIP của Locket Gold đều được mở khóa toàn diện từ giao diện, camera, dung lượng bộ nhớ cho tới các quyền hạn cao cấp trên hệ thống. Kèm theo đó là giải pháp **DNS Chống thu hồi độc quyền từ DalyMMO** giúp bạn giữ trạng thái Gold vĩnh viễn mà không cần phải bật VPN liên tục.
+Mọi tính năng VIP của Locket Gold đều được mở khóa toàn diện từ giao diện, camera, dung lượng bộ nhớ cho tới các quyền hạn cao cấp trên hệ thống. Kèm theo đó là giải pháp **Hệ Thống Kép 2 DNS Chống Thu Hồi (Cloudflare Worker & NextDNS)** giúp bạn giữ trạng thái Gold vĩnh viễn mà không cần phải bật VPN liên tục.
 
 ---
 
@@ -38,23 +38,28 @@ Mọi tính năng VIP của Locket Gold đều được mở khóa toàn diện 
 
 > 💡 **Mẹo:** Trên Safari iPhone, bấm trực tiếp vào liên kết **1-Click** bên dưới để thiết bị tự động chuyển hướng và mở ứng dụng **Shadowrocket** nạp cấu hình ngay lập tức!
 > 
-> 🌐 Hoặc mở giao diện cài đặt nhanh chuyên biệt tại: **[👉 Mở Trang Web Cài Đặt (Web Installer)](https://raw.githack.com/Vinh2409/locketlam-shadowrocket/main/index.html)**
+> 🌐 Hoặc mở giao diện cài đặt nhanh chuyên biệt tại: **[👉 Mở Trang Web Cài Đặt (Web Installer)](https://raw.githack.com/tduck1412/testungulon/main/index.html)**
 
 ### 📲 1-Click Mở Ngay Trong Shadowrocket:
 
 * ⚡ **Cài đặt Module (Khuyên dùng):**  
-  [👉 Bấm vào đây để cài Module Locket Gold](https://raw.githack.com/Vinh2409/locketlam-shadowrocket/main/module.html)
+  [👉 Bấm vào đây để cài Module Locket Gold](https://raw.githack.com/tduck1412/testungulon/main/module.html)
 * 🚀 **Thêm Cấu hình Config:**  
-  [👉 Bấm vào đây để thêm Config Locket](https://raw.githack.com/Vinh2409/locketlam-shadowrocket/main/conf.html)
+  [👉 Bấm vào đây để thêm Config Locket](https://raw.githack.com/tduck1412/testungulon/main/conf.html)
 
 ---
 
-### 🛡️ Tải Hồ Sơ DNS Chống Thu Hồi Về iPhone:
+### 🛡️ Tải Hệ Thống 2 Hồ Sơ DNS Chống Thu Hồi Về iPhone:
 
 > 💡 **Cách dùng:** Bấm vào liên kết bên dưới bằng trình duyệt **Safari** trên iPhone. Hệ thống sẽ tự động tải về file cấu hình `.mobileconfig` và hiện thông báo **"Đã tải về hồ sơ"**. Sau đó bạn chỉ cần vào **Cài đặt ➔ Đã tải về hồ sơ ➔ Cài đặt** là xong!
 
-* 📲 **Tải Profile DNS Tự Động (.mobileconfig):**  
-  [👉 Bấm vào đây để tải locketlam.mobileconfig về iPhone](https://cdn.jsdelivr.net/gh/Vinh2409/locketlam-shadowrocket@main/locketlam.mobileconfig)
+* ⚡ **DNS 1 - Cloudflare Worker Engine (Khuyên dùng):**  
+  [👉 Tải tducgold_worker.mobileconfig](https://cdn.jsdelivr.net/gh/tduck1412/testungulon@main/tducgold_worker.mobileconfig)  
+  *(Chạy trên Cloudflare Worker cá nhân của tduc: siêu tốc độ, uptime 99.99%, không giới hạn lượt truy vấn).*
+
+* 🛡️ **DNS 2 - NextDNS Backup Engine (Dự phòng / Phân tải):**  
+  [👉 Tải tducgold_nextdns.mobileconfig](https://cdn.jsdelivr.net/gh/tduck1412/testungulon@main/tducgold_nextdns.mobileconfig)  
+  *(Chạy trên NextDNS riêng của tduc ID `a2dd89`: dùng phân tải hoặc dự phòng).*
 
 ---
 
@@ -62,9 +67,10 @@ Mọi tính năng VIP của Locket Gold đều được mở khóa toàn diện 
 
 | Mục cài đặt | Thao tác 1-Click | Link chép thủ công |
 | :--- | :--- | :--- |
-| **Module Locket (.sgmodule)** | [⚡ Cài đặt Module](https://raw.githack.com/Vinh2409/locketlam-shadowrocket/main/module.html) | `https://raw.githubusercontent.com/Vinh2409/locketlam-shadowrocket/refs/heads/main/locketlam.sgmodule` |
-| **Config Locket (.conf)** | [🚀 Thêm Config](https://raw.githack.com/Vinh2409/locketlam-shadowrocket/main/conf.html) | `https://raw.githubusercontent.com/Vinh2409/locketlam-shadowrocket/refs/heads/main/locketlam.conf` |
-| **Hồ sơ DNS (.mobileconfig)** | [🛡️ Tải Profile DNS](https://cdn.jsdelivr.net/gh/Vinh2409/locketlam-shadowrocket@main/locketlam.mobileconfig) | `https://cdn.jsdelivr.net/gh/Vinh2409/locketlam-shadowrocket@main/locketlam.mobileconfig` |
+| **Module Locket (.sgmodule)** | [⚡ Cài đặt Module](https://raw.githack.com/tduck1412/testungulon/main/module.html) | `https://raw.githubusercontent.com/tduck1412/testungulon/main/locketlam.sgmodule` |
+| **Config Locket (.conf)** | [🚀 Thêm Config](https://raw.githack.com/tduck1412/testungulon/main/conf.html) | `https://raw.githubusercontent.com/tduck1412/testungulon/main/locketlam.conf` |
+| **DNS 1 (Cloudflare Worker)** | [⚡ Tải DNS 1](https://cdn.jsdelivr.net/gh/tduck1412/testungulon@main/tducgold_worker.mobileconfig) | `https://cdn.jsdelivr.net/gh/tduck1412/testungulon@main/tducgold_worker.mobileconfig` |
+| **DNS 2 (NextDNS Backup)** | [🛡️ Tải DNS 2](https://cdn.jsdelivr.net/gh/tduck1412/testungulon@main/tducgold_nextdns.mobileconfig) | `https://cdn.jsdelivr.net/gh/tduck1412/testungulon@main/tducgold_nextdns.mobileconfig` |
 
 ---
 
@@ -136,9 +142,9 @@ Mọi tính năng VIP của Locket Gold đều được mở khóa toàn diện 
 ### 🛡 Bước phụ: Chống thu hồi vĩnh viễn (Không cần bật VPN)
 Sau khi Locket đã lên Gold thành công, nếu bạn không muốn bật VPN Shadowrocket liên tục làm tốn pin:
 1. Bạn có thể **tắt VPN Shadowrocket đi**.
-2. Mở trình duyệt Safari trên iPhone, bấm nút **Tải Cấu Hình DNS Chống Thu Hồi** ở bảng cài đặt nhanh hoặc mở file `locketlam.mobileconfig`.
+2. Mở trình duyệt Safari trên iPhone, tải cấu hình **DNS 1 (Cloudflare Worker)** hoặc **DNS 2 (NextDNS Backup)**.
 3. Vào **Cài đặt ➔ Đã tải về hồ sơ ➔ Cài đặt**.
-4. Vào **Cài đặt ➔ Cài đặt chung ➔ VPN & Quản lý thiết bị ➔ DNS ➔ Chọn "Locket Gold DNS (LAMDev)"**.
+4. Vào **Cài đặt ➔ Cài đặt chung ➔ VPN & Quản lý thiết bị ➔ DNS ➔ Chọn "TducGold DNS Worker (tduc)" hoặc "TducGold NextDNS (tduc)"**.
 5. Bây giờ Locket Gold sẽ được giữ vĩnh viễn trên iPhone của bạn mà không cần bật VPN nữa!
 
 ---
@@ -154,20 +160,19 @@ Sau khi Locket đã lên Gold thành công, nếu bạn không muốn bật VPN 
 
 <details>
 <summary><b>2. Dùng DNS chống thu hồi này mạng có bị chậm hay lag không?</b></summary>
-Hoàn toàn không! Cấu hình sử dụng công nghệ <b>Split DNS</b>, chỉ định tuyến duy nhất các yêu cầu kiểm tra của Locket về server chống thu hồi của DalyMMO (ID: <code>992769</code>), còn toàn bộ mạng lướt web, Facebook, TikTok, YouTube... vẫn dùng 100% mạng gốc tốc độ cao.
+Hoàn toàn không! Cấu hình sử dụng công nghệ <b>Split DNS</b>, chỉ định tuyến duy nhất các yêu cầu kiểm tra bản quyền của Locket về Cloudflare Worker / NextDNS cá nhân của tduc, còn toàn bộ mạng lướt web, Facebook, TikTok, YouTube... vẫn dùng 100% mạng gốc tốc độ cao.
 </details>
 
 <details>
 <summary><b>3. Tôi có thể chia sẻ cho bạn bè dùng cùng không?</b></summary>
-Có! Cấu hình này được tối ưu sẵn trên máy chủ NextDNS cá nhân của LAMDev, bạn có thể gửi link này cho bất kỳ ai sử dụng hoàn toàn miễn phí.
+Có! Cấu hình này được tối ưu sẵn trên máy chủ Cloudflare Worker và NextDNS của tduc, bạn có thể gửi link này cho bất kỳ ai sử dụng hoàn toàn miễn phí.
 </details>
 
 ---
 
 ## 👨‍💻 Thông tin phát triển
 
-- **Bản quyền & Phát triển:** [LAMDev](https://dalymmo.com)
-- **Mã Nguồn Gốc:** [duyvinh09](https://github.com/duyvinh09/Module_IOS/)
-- **Website chính thức:** [dalymmo.com](https://dalymmo.com)
-- **Kênh thông báo & Hỗ trợ:** [Telegram @dalymmocom](https://t.me/dalymmocom)
+- **Bản quyền & Tối ưu hóa:** [tduc](https://www.facebook.com/tduck.2007/) (Facebook: [fb.com/tduck.2007](https://www.facebook.com/tduck.2007/))
+- **Mã Nguồn Repository:** [tduck1412/testungulon](https://github.com/tduck1412/testungulon)
+- **Mã Nguồn Tham Khảo:** duyvinh09
 - **Giấy phép:** Được phát hành miễn phí cho cộng đồng người dùng iOS. Nghiêm cấm mọi hành vi sao chép nhằm mục đích thương mại.
