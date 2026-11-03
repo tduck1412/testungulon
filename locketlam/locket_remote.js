@@ -1,7 +1,7 @@
 // ============================================================
 // Locket Remote Config Rewrite
 // Endpoint: firebaseremoteconfig.googleapis.com
-// Dùng cho: Loon / Quantumult X / Surge / Shadowrocket
+// Dùng cho: Shadowrocket
 // Tác giả: @tduc (https://www.facebook.com/tduck.2007/)
 // ============================================================
 

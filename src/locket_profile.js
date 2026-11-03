@@ -1,6 +1,6 @@
 // ============================================================
 // Locket Profile Info & Badge Injector
-// Dùng cho: Shadowrocket / Loon / Surge / Quantumult X
+// Dùng cho: Shadowrocket
 // Tác giả: LAMDev / @duyvinh09
 // ============================================================
 

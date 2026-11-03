@@ -1,6 +1,6 @@
 // ============================================================
 // Delete Caching Headers for RevenueCat
-// Dùng cho: Shadowrocket / Loon / Surge / Quantumult X
+// Dùng cho: Shadowrocket
 // Tác giả: @tduc (https://www.facebook.com/tduck.2007/)
 // ============================================================
 
