@@ -1,0 +1,178 @@
+{
+  "identifier" : "E2B3C4D5-6789-40AB-8CDE-123456789ABC",
+  "nonRenewingSubscriptions" : [ ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1001",
+      "localizations" : [
+        {
+          "description" : "Gói 10 lượt chụp kèm hiệu ứng AR ngày lễ",
+          "displayName" : "Filter Pack 10",
+          "locale" : "vi"
+        },
+        {
+          "description" : "Unlock 10 holiday AR filter moments",
+          "displayName" : "Filter Pack 10",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.locket.Locket.FilterPack_10Photos_400",
+      "referenceName" : "Filter Pack 10 Photos",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "1002",
+      "localizations" : [
+        {
+          "description" : "Gói 20 lượt chụp kèm hiệu ứng AR ngày lễ",
+          "displayName" : "Filter Pack 20",
+          "locale" : "vi"
+        },
+        {
+          "description" : "Unlock 20 holiday AR filter moments",
+          "displayName" : "Filter Pack 20",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.locket.Locket.FilterPack_20Photos_500",
+      "referenceName" : "Filter Pack 20 Photos",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "1234567890",
+    "_developerTeamID" : "TEAM123456",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 752310000,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ],
+    "_timeRate" : 6
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "2001",
+      "localizations" : [
+        {
+          "description" : "Gói thành viên cao cấp Locket Gold",
+          "displayName" : "Locket Gold Membership",
+          "locale" : "vi"
+        },
+        {
+          "description" : "Premium Locket Gold Membership",
+          "displayName" : "Locket Gold Membership",
+          "locale" : "en_US"
+        }
+      ],
+      "name" : "Locket Gold Group",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [ ],
+          "codeOffers" : [ ],
+          "displayPrice" : "15.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "3001",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Thuê bao Locket Gold 1 năm (Mở khóa toàn bộ tính năng và filter)",
+              "displayName" : "Locket Gold 1 Year",
+              "locale" : "vi"
+            },
+            {
+              "description" : "Locket Gold 1-Year Subscription",
+              "displayName" : "Locket Gold 1 Year",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "locket_1600_1y",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Locket Gold 1 Year",
+          "subscriptionGroupID" : "2001",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [ ],
+          "codeOffers" : [ ],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "3002",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Thuê bao Locket Gold 1 tháng",
+              "displayName" : "Locket Gold 1 Month",
+              "locale" : "vi"
+            },
+            {
+              "description" : "Locket Gold 1-Month Subscription",
+              "displayName" : "Locket Gold 1 Month",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "locket_gold_monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Locket Gold 1 Month",
+          "subscriptionGroupID" : "2001",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
