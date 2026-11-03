@@ -305,7 +305,7 @@ scriptings:
 - http_response:
     name: Locket_Gold
     match: ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$)
-    script_url: https://raw.githubusercontent.com/vuong2023/shad/main/js/Locket.js
+    script_url: https://raw.githubusercontent.com/tduck1412/testungulon/main/locketlam/locketlam.js
     update_interval: 5
     body_required: true
 mitm:
